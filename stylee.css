@@ -1,0 +1,178 @@
+
+ 
+
+.header {
+  background-color: black;
+  color: whitesmoke;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  position: -webkit-sticky; 
+  position: sticky;
+  top: 0;
+  background-color: white;
+
+  
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  margin: 0 10px;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: darkorange;
+}
+
+section {
+  
+  padding: 20px;
+  margin-bottom: 20px;
+  
+  border-radius: 10px;
+  transition: color 1.0s;
+}
+
+section:hover {
+  color: darkorange;
+}
+
+table, th, td {
+  border: 3px solid black;
+}
+
+#qualification {
+  text-align: center;
+}
+
+#qualification p1 {
+  float: right;
+}
+
+#qualification ul {
+  text-align: center;
+}
+
+#about {
+  
+  text-align: center;
+  font-size:larger;
+  font-style:normal
+}
+
+#about p{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size:large;
+
+}
+
+#hobbies p {
+  text-align: center;
+  font-size: x-large;
+  font-family: cursive;
+}
+
+#hobbies div video {
+  float: right;
+  background-color: black;
+}
+
+
+
+#certificate p {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-transform: uppercase;
+  font-family: cursive;
+  font-size: larger;
+}
+
+
+#project,
+#contact {
+  text-align: center;
+}
+
+
+
+#project table th {
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+
+#project table td {
+  padding: 10px;
+}
+
+
+
+#contact {
+  margin-bottom: 50px;
+}
+
+#contact p {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.contact-button {
+  vertical-align: middle;
+  border: none;
+  cursor: pointer;
+}
+
+.contact-button:hover {
+  opacity: 0.7;
+}
+
+#qualification {
+
+  padding: 50px 0;
+  
+  text-align: center;
+}
+
+.qualification-item {
+  background-image: url(bg2.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.qualification-item h3 {
+  font-size: 24px;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.qualification-item p {
+  font-size: 16px;
+  color: dimgray;
+  margin-bottom: 5px;
+}
+
+.qualification-item .grade {
+  color: dodgerblue;
+}
+
+.overall-rank {
+  font-style: italic;
+  border-top: 1px solid darkgray;
+  padding-top: 10px;
+}
+
+
+
+
+
+
